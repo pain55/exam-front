@@ -1,0 +1,35 @@
+<p>
+  <mat-toolbar>
+    <a
+      mat-icon-button
+      class="example-icon"
+      aria-label="Example icon-button with menu icon"
+      routerLink="/"
+    >
+      <mat-icon>auto_stories</mat-icon>
+    </a>
+    <span class="logo-name">Exam Portal</span>
+    <span class="example-spacer"></span>
+
+    <a
+      mat-icon-button
+      class="example-icon favorite-icon"
+      aria-label="Example icon-button with heart icon"
+      [routerLink]="'/login'"
+    >
+    login
+      <!-- <mat-icon>login</mat-icon> -->
+    </a>
+    <div>
+      <a
+        mat-icon-button
+        class="example-icon m10"
+        aria-label="Example icon-button with share icon"
+        routerLink="/register"
+      >
+        <!-- <mat-icon>person_add</mat-icon> -->
+        register
+      </a>
+    </div>
+  </mat-toolbar>
+</p>
